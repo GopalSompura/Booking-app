@@ -1,0 +1,41 @@
+.wrapperlist{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.wrapper{
+    width: 10%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+.findlist{
+    flex: 1;
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+}
+.finallist{
+    flex: 3;
+}
+.fltitle{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.flitem{
+display: flex;
+flex-direction: column;
+gap: 5px;
+margin-bottom: 10px;
+}
+.flitem>label{
+font-size: 12px;
+}
+.flitem>input{
+height: 30px;
+border: none;
+padding: 5px;
+}
